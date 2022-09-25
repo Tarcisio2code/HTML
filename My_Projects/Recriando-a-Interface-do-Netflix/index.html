@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <div class="modalExibeTrailer" style="display: none">
+        <div class="modal-content ">
+            <div class="modal-header">
+                <button role="button" class="btnClose" onclick="playMovie()">
+                    <span aria-hidden="true">×</span>
+                </button>           
+            </div>
+            <div class="modal-body">
+                <!-- enablejsapi permite o controle do video via api do youtube -->
+                <iframe class="movie" src="https://www.youtube.com/embed/5_4SW8HHfUs?start=0&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">THE UMBRELLA ACADEMY</h3>
+                <p class="descricao">Com a morte do pai, irmãos com poderes extraordinários se reencontram e descobrem surpreendentes segredos de família – além de uma ameaça iminente à humanidade.</p>
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="playMovie()">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+            <img class="image" src="img/mini1.jpg" alt="">
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/mini1.jpg" alt="THE UMBRELLA ACADEMY|Com a morte do pai, irmãos com poderes extraordinários se reencontram e descobrem surpreendentes segredos de família – além de uma ameaça iminente à humanidade." srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini2.jpg" alt="STAR WARS: A ASCENÇÃO SKYWALKER|Com o retorno do Imperador Palpatine, todos voltam a temer seu poder e, com isso, a Resistência toma a frente da batalha que ditará os rumos da galáxia." srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini3.jpg" alt="POKÉMON|Explore o mundo de Pokémon com Ash e seu parceiro Pikachu em busca do sonho do menino de ser um mestre Pokémon." srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini4.jpg" alt="CAPIÃO AMÉRICA: GUERRA CIVL|O ataque de Ultron fez com que os políticos buscassem algum meio de controlar os super-heróis, já que seus atos afetam toda a humanidade. Tal decisão coloca o Capitão América em rota de colisão com Tony Stark, o Homem de Ferro." srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini5.jpg" alt="O HOBBIT: A BATALHA DOS CINCO EXERCITOS|O dragão Smaug lança sua fúria ardente contra a Cidade do Lago que fica próxima da montanha de Erebor." srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini6.jpg" alt="BREAKING BAD|Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da família, mudando o destino de todos." srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini7.jpg" alt="DR. HOUSE|Um médico dissidente e anti-social, que se especializou em medicina de diagnóstico. Faz o que for preciso para resolver casos intrigantes que estão no seu caminho, usando a sua equipe de médicos e sua inteligência." srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini8.jpg" alt="SUPERNATURAL|Os irmãos Dean e Sam vasculham o país em busca de atividades paranormais, brigando com demônios, fantasmas e monstros no caminho." srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini9.jpg" alt="SMALLVILLE|Antes da vida como Super-Homem, o jovem Clark Kent encara os problemas da adolescência enquanto aprende a controlar seus poderes e usá-los para proteger a cidade de Smallville." srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/mini10.jpg" alt="VINGADORES: GUERRA INFINITA|Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu inimigo mais poderoso, o maligno Thanos." srcset="">
+                </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+</body>
+</html>
