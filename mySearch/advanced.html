@@ -4,17 +4,35 @@
         <title>My Search Page - Advanced Search</title>
     </head>
     <body>
-		<div style="margin:auto; text-align:right; display:block">
-			<a href="./index.html">Google Search</a>
-		</div>
+		<header>
+			<div style="margin:auto; text-align:right; display:block">
+				<a href="./index.html">Google Search</a>
+			</div>	
+		</header>
 		<div>
 			<label>Advanced Search</label>
 		</div>
-		<form action="/search" method="GET" name="f">
+		<form action="https://www.google.com/search" method="GET" name="f">
 			<div>
 				<span>Find pages with...</span>
 			</div>
 			<div>
+				<div>
+					<label>all these words:</label>
+					<input type="text" name="as_q" aria-label="Search">
+				</div>
+				<div>
+					<label>this exact word or phrase:</label>
+					<input type="text" name="as_epq" aria-label="Search">
+				</div>
+				<div>
+					<label>any of these words:</label>
+					<input type="text" name="as_oq" aria-label="Search">
+				</div>
+				<div>
+					<label>none of these words:</label>
+					<input type="text" name="as_eq" aria-label="Search">
+				</div>
 				<input type="submit" value="Advanced Search">
 			</div>
 		</form>
