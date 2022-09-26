@@ -1,0 +1,15 @@
+body {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+header {
+    height: 60px;
+    padding: 6px;
+    text-align:right;
+}
+header > div > a {
+    text-decoration: none;
+}
+header > div > a:hover {
+    text-decoration: underline;
+}
