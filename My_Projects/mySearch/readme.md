@@ -2,7 +2,8 @@
 
 **Mission**
 >_Design a front-end for Google Search, Google Image Search, and Google Advanced Search._   
-  
+
+<br>
   
 **Specification**
 >- _The website should have at least three pages: one for regular Google Search, one for Google Image Search, and one for Google Advanced Search._
@@ -13,13 +14,19 @@
     - _Find pages with… “any of these words:”_
     - _Find pages with… “none of these words:”_  
    
+<br>
    
 **Documentation**   
-  
-  
+<br>
+
 **Progress**   
 ![](https://geps.dev/progress/80)   
   
-  
-  
-_According to HarvardX -  CS50W Curse_
+<br>
+<br>
+
+_According to HarvardX - Web Programming with Python and JavaScript Curse_
+
+<br>
+
+![screenshot](img/preview.svg?raw=true "screenshot")
