@@ -1,15 +1,107 @@
 body {
     font-family: arial,sans-serif;
     font-size: 14px;
+    margin: 0;
 }
 header {
     height: 60px;
     padding: 6px;
-    text-align:right;
+    display: flex;
+    align-items:center;
+    justify-content: right;
 }
 header > div > a {
     text-decoration: none;
 }
 header > div > a:hover {
     text-decoration: underline;
+}
+.search-options{
+    padding-right: 10px;
+}
+.logo {
+    margin-top:0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.google-logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+} 
+.search-panel {
+    padding: 20px;
+    max-height: 160px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.search-box{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    padding: 0px 8px 0 14px;
+    justify-content:left;
+    align-items: center;
+}
+.search-box:hover {
+    box-shadow: 0 0 5px rgba(160, 160, 160, 0.6);
+    -webkit-box-shadow: 0 0 5px rgba(160, 160, 160, 0.6);
+}
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    padding-right: 13px;
+}
+.search-icon img{
+    height: 20px;
+    filter: invert(60%)
+}
+.input-box{
+    margin: 0;
+    padding: 0;
+    height: 34px;
+    font-size: 16px;
+    width: 500px;
+    border: 0;
+    outline: 0;
+    word-wrap: break-word;
+}
+.search-button{
+    height: 70px;
+    padding-top: 18px;
+    display: block;
+}
+.btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.btn:hover {
+    box-shadow: 0 0 1px rgb(118,118,118)
 }

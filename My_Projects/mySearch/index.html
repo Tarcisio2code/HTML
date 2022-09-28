@@ -6,19 +6,29 @@
     </head>    
     <body>
         <header>
-            <div>
+            <div class="search-options">
                 <a href="./images.html">Google Image Search</a>
                 <a style="margin-left: 20px" href="./advanced.html">Google Advanced Search</a>
             </div>            
         </header>
-        <form action="https://www.google.com/search">
-            <div>
-                <input type="text" name="q" aria-label="Search">
-            </div>
-            <div id="searchButtons">
-				<input type="submit" value="Google Search">
-				<input type="submit" name="btnI" value="I am lucky">
-			</div>
-        </form>
+        <div class="logo">
+            <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+        </div>
+        <div class="search-panel">
+                <form action="https://www.google.com/search">
+                    <div class="search-box">
+                        <div class="search-icon">
+                            <img src="./img/magnifying_glass.svg.png" alt="search">
+                        </div>
+                        <div>
+                            <input class="input-box" type="text" name="q" aria-label="Search">
+                        </div>
+                    </div>
+                    <div class="search-button">
+                        <input class="btn" type="submit" value="Google Search">
+                        <input class="btn" type="submit" name="btnI" value="I'm Feeling Lucky">
+                    </div>
+                </form>
+        </div>
     </body>
 </html>
