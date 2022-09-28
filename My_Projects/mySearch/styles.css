@@ -2,6 +2,7 @@ body {
     font-family: arial,sans-serif;
     font-size: 14px;
     margin: 0;
+    min-width: 400px;
 }
 header {
     height: 60px;
@@ -53,7 +54,6 @@ header > div > a:hover {
     width: auto;
     max-width: 584px;
     padding: 0px 8px 0 14px;
-    justify-content:left;
     align-items: center;
 }
 .search-box:hover {
@@ -72,14 +72,20 @@ header > div > a:hover {
     filter: invert(60%)
 }
 .input-box{
+    display: flex;
+    flex: 1;
+    flex-wrap:wrap;
+}
+.text-box{
     margin: 0;
     padding: 0;
     height: 34px;
     font-size: 16px;
-    width: 500px;
-    border: 0;
-    outline: 0;
+    border: none;
+    outline: none;
     word-wrap: break-word;
+    display: flex;
+    flex: 100%;
 }
 .search-button{
     height: 70px;
