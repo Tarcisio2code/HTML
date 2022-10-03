@@ -20,7 +20,7 @@
 <br>
 
 **Progress**   
-![](https://geps.dev/progress/80)   
+![](https://geps.dev/progress/100)   
   
 <br>
 <br>
@@ -29,4 +29,4 @@ _According to HarvardX - Web Programming with Python and JavaScript Curse_
 
 <br>
 
-![screenshot](img/preview.svg?raw=true "screenshot")
+![screenshot](img/preview.png?raw=true "screenshot")
