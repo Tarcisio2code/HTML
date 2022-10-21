@@ -1,7 +1,9 @@
 $color: red;
 $color-paragraph: blue;
 $color-unordered-list: green;
-
+$color-success: green;
+$color-warning: orange;
+$color-error: red;
  
 ul {
     font-size: 14px;
@@ -24,4 +26,26 @@ div {
     color: color-unordered-list;
   }
    
-  
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.success {
+    @extend %message;
+    background-color: $color-success;
+}
+
+.warning {
+    @extend %message;
+    background-color: $color-warning;
+}
+
+.error {
+    @extend %message;
+    background-color: $color-error;
+}
