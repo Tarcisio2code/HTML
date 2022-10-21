@@ -1,4 +1,7 @@
-$color: red; // create a variable for the color
+$color: red;
+$color-paragraph: blue;
+$color-unordered-list: green;
+
  
 ul {
     font-size: 14px;
@@ -9,3 +12,16 @@ ol {
     font-size: 18px;
     color: $color;
 }
+
+ 
+div {
+    font-size: 18px;
+  }
+  div p {
+    color: color-paragraph;
+  }
+  div ul {
+    color: color-unordered-list;
+  }
+   
+  

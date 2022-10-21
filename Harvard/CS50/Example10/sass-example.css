@@ -8,4 +8,16 @@ ol {
   color: red;
 }
 
+div {
+  font-size: 18px;
+}
+
+div p {
+  color: color-paragraph;
+}
+
+div ul {
+  color: color-unordered-list;
+}
+
 /*# sourceMappingURL=sass-example.css.map */
