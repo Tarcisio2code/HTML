@@ -69,3 +69,25 @@ form h1{
 ::placeholder{
     color: aliceblue;
 }
+.password-settings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 10px;
+}
+.password-settings .remember-box{
+    display: flex;
+    cursor: pointer;
+}
+.password-settings #remember-checkbox{
+    margin-right: 5px;
+    background: rgb(255, 255, 255,0.1);
+    cursor: pointer;
+}
+.remember-box label{
+    cursor: pointer;
+}
+.password-settings .forgot-password{
+    color: aliceblue;
+}
