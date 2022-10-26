@@ -151,3 +151,18 @@ h3::after{
     left:0.5em;
     margin-right: -50%;
 }
+.login-methods{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+.fab{
+    color: aliceblue;
+    font-size: 28px;
+    transition: 0.3s;
+}
+.fab:hover{
+    color: rgb(146, 146, 146);
+}
