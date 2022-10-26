@@ -91,3 +91,30 @@ form h1{
 .password-settings .forgot-password{
     color: aliceblue;
 }
+.btn-container{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    height: 80%;
+    width: 100%;
+}
+button{
+    width: 100%;
+    border-radius: 20px;
+    background: none;
+    color: aliceblue;
+    font-size: 14px;
+    cursor: pointer;
+    border: 2px solid #456;
+    transition: 0.3s;
+    margin-bottom: 20px;
+    height: 38px;
+}
+button:hover{
+    border: 2px solid rgb(1, 234, 75);
+}
+.sign-in{
+    font-weight: 600;
+    background: linear-gradient(35deg, rgb(189, 226, 145), 
+            rgb(100, 168,87), rgb(116, 211, 116));
+}
