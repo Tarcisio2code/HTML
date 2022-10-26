@@ -188,4 +188,7 @@ h3::after{
         width: 100%;
         border-radius: 0;
     }
+    .input-box{
+        width: 100%;
+    }
 }
