@@ -166,3 +166,26 @@ h3::after{
 .fab:hover{
     color: rgb(146, 146, 146);
 }
+@media (max-width: 600px){
+    form{
+        justify-content: center;
+        align-items: center;
+        height: 550px;
+        width: 270px;
+        padding: 40px 10px;
+    }
+    form h1{
+        margin-bottom: 30px;
+    }
+    .left-container,
+    .right-container{
+        width: 100%;
+    }
+}
+@media (max-width: 390px){
+    form{
+        height: 100vh;
+        width: 100%;
+        border-radius: 0;
+    }
+}
