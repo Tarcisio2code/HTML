@@ -118,3 +118,36 @@ button:hover{
     background: linear-gradient(35deg, rgb(189, 226, 145), 
             rgb(100, 168,87), rgb(116, 211, 116));
 }
+.right-container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.horizontal-line{
+    width: 100%;
+}
+h3{
+    text-align: center;
+    overflow: hidden;
+    font-size: 11px;
+}
+h3:before,
+h3:after{
+    background-color: rgb(241, 241, 241);
+    content: '';
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h3::before{
+    right:0.5em;
+    margin-left: -50%;
+}
+h3::after{
+    left:0.5em;
+    margin-right: -50%;
+}
